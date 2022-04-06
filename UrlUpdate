@@ -1,13 +1,13 @@
 {
-  "Version": "1.0.3",
-  "ReleaseNotes": "",
+  "Version": "1.0.4",
+  "ReleaseNotes": "Atualização de payloads",
   "UrlUpdate": "https://mfneet.github.io/UrlUpdate",
   "Sms": "https://mfneet.github.io/UrlSms",
   "EmailFeedback": "vpslk@gmail.com",
   "UrlContato": "https://t.me/marciofdl",
   "UrlTermos": "https://mfneet.github.io/termos.html",
   "CheckUser": "true",
-  "FormatCheck": "ddmmyyyy",
+  "FormatCheck": "yyyymmdd",
   "Udp": [
     {
       "Porta": "7300"
@@ -31,7 +31,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "br.mfnet.xyz",
-      "CheckUser": "http://198.50.217.6:2095/checkUser",
+      "CheckUser": "http://198.50.217.6/:2095/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
@@ -42,7 +42,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "br.mfnet.xyz",
-      "CheckUser": "http://198.50.217.6:8989/checkUser",
+      "CheckUser": "http://198.50.217.6/:8989/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
