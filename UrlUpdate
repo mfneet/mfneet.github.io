@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.16",
+  "Version": "1.0.17",
   "ReleaseNotes": "Atualização: CLARO e TIM.",
   "UrlUpdate": "https://mfneet.github.io/UrlUpdate",
   "Sms": "https://mfneet.github.io/UrlSms",
@@ -13,16 +13,16 @@
       "Porta": "7300"
     },
     {
-      "Porta": "7400"
+      "Porta": "7300"
     },
     {
-      "Porta": "7500"
+      "Porta": "7300"
     },
     {
-      "Porta": "7600"
+      "Porta": "7300"
     },
     {
-      "Porta": "7700"
+      "Porta": "7300"
     }
   ],
   "Servers": [
