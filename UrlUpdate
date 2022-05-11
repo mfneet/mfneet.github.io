@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.18",
+  "Version": "1.0.19",
   "ReleaseNotes": "Atualização: CLARO e TIM.",
   "UrlUpdate": "https://mfneet.github.io/UrlUpdate",
   "Sms": "https://mfneet.github.io/UrlSms",
@@ -53,10 +53,10 @@
     {
       "Name": "VIVO PROXY 01",
       "FLAG": "vivo",
-      "Payload": "GET wss://vivo.apolo.tk [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET wss://vivoemdia.vivo.com.br [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "vivo.apolo.tk",
+      "ProxyIP": "vivoemdia.vivo.com.br",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
@@ -65,7 +65,7 @@
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "[app_host]",
-      "TlsIP": "vivo.apolo.tk",
+      "TlsIP": "vivoemdia.vivo.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
@@ -73,19 +73,19 @@
     {
       "Name": "TIM PROXY 01",
       "FLAG": "tim",
-      "Payload": "GET wss://tim.apolo.tk [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET wss://cutim.com.br [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "tim.apolo.tk",
+      "ProxyIP": "cutim.com.br",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
     {
       "Name": "TIM TLS 02",
       "FLAG": "tim",
-      "Payload": "GET wss://tim.apolo.tk [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "tim.apolo.tk",
-      "TlsIP": "tim.apolo.tk",
+      "Payload": "GET wss://cutim.com.br [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "cutim.com.br",
+      "TlsIP": "cutim.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
