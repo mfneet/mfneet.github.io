@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.20",
+  "Version": "1.0.21",
   "ReleaseNotes": "Atualização: TIM.",
   "UrlUpdate": "https://mfneet.github.io/UrlUpdate",
   "Sms": "https://mfneet.github.io/UrlSms",
@@ -86,8 +86,8 @@
       "Payload"GET /? HTTP/1.0\r\nHost: br.mfnet.xyz\r\nUpgrade: websocket\r\nConnection: Keep-Alive\nUser-Agent: [ua]\nReferer: \r\n\r\n",
       "SNI": "br.mfnet.xyz",
       "TlsIP": "br.mfnet.xyz",
-      "ProxyIP": "",
-      "ProxyPort": "",
+      "ProxyIP": "104.16.19.94",
+      "ProxyPort": "443",
       "Info": "Tlsws"
     },
     {
