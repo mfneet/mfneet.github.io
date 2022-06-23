@@ -63,7 +63,7 @@
     {
       "Name": "VIVO TLS 02",
       "FLAG": "vivo",
-      "Payload": "GET wss://bi-router.movistar.com.ar [protocol][crlf]Host: br.mfnet.xyz[crlf] Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET wss://bi-router.movistar.com.ar [protocol][crlf]Host: [app_host][crlf] Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "bi-router.movistar.com.ar",
       "TlsIP": "bi-router.movistar.com.ar",
       "ProxyIP": "104.18.6.80",
